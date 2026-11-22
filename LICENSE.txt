@@ -1,0 +1,11 @@
+Kanash (كناش) — Store & Shop Accounting
+Copyright (c) 2026 Smart Vision Technology (al.3raqi). All rights reserved.
+
+This software and its source code are proprietary. You may use the official builds
+published by the developer. You may not copy, modify, decompile, redistribute, resell
+or publish this software, in whole or in part, without prior written permission from
+the developer. Contact: al.3raqi.89@gmail.com
+
+كناش — جميع الحقوق محفوظة © 2026 Smart Vision Technology (al.3raqi).
+لا يجوز نسخ البرنامج أو تعديله أو إعادة توزيعه أو بيعه دون إذن كتابي من المطوّر.
+البيانات التي يُدخلها المستخدم ملك له وحده.
