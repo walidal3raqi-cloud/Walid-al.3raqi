@@ -1,9 +1,230 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>سياسة الخصوصية - كناش</title><style>body{font-family:Cairo,Tahoma,Arial,sans-serif;max-width:760px;margin:0 auto;padding:20px;line-height:1.9;color:#10231c;background:#f4faf7}h1,h2{color:#046740}@media(prefers-color-scheme:dark){body{background:#0a1311;color:#e6f1ec}h1,h2{color:#34d399}}</style></head><body>
-<h1>سياسة الخصوصية — كناش</h1><p>آخر تحديث: نوفمبر 2026 · الإصدار 1.4.0</p>
-<h2>البيانات التي نجمعها</h2><p>لا نجمع أي بيانات عنك على خوادمنا. كل ما تدخله (الطلبات، العملاء، المنتجات، الصور، المصروفات) يُحفظ على جهازك فقط.</p>
-<h2>الأذونات</h2><p><b>الكاميرا:</b> لمسح الباركود فقط. <b>جهات الاتصال:</b> لاختيار اسم ورقم عميل عند طلبك ذلك، ولا يُحفظ غيره. <b>التخزين/التنزيلات:</b> لحفظ النسخ الاحتياطية التي تطلبها.</p>
-<h2>المشاركة</h2><p>لا تُرسل بياناتك لأي جهة إلا إذا اخترت بنفسك: مشاركة نسخة احتياطية أو كشف حساب أو رسالة دعم (بريد/واتساب)، أو المزامنة السحابية عبر حسابك.</p>
-<h2>الأمان والحذف</h2><p>يمكنك قفل التطبيق برقم سري، وحذف أي بيانات أو النسخ التلقائية من الإعدادات، وحذف التطبيق يمسح بياناته من الجهاز. احتفظ بنسخة احتياطية خاصة بك.</p>
-<h2>الأطفال</h2><p>التطبيق موجّه لأصحاب المتاجر والمحلات، وليس للأطفال.</p>
-<h2>التواصل</h2><p>al.3raqi.89@gmail.com — Smart Vision Technology</p>
-<hr><h1 dir="ltr" style="text-align:left">Privacy Policy — Kanash</h1><p dir="ltr" style="text-align:left">Kanash does not collect your data on any server. Everything you enter is stored on your device only. The camera is used only to scan barcodes; contacts are used only to pick a name and number when you ask; storage/downloads only to save backups you request. Data is shared only when you choose to (backup, statement, support message, or cloud sync with your own account). You can lock the app with a PIN and delete any data from Settings. Contact: al.3raqi.89@gmail.com</p></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية - تطبيق كناش</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --primary: #0f172a;
+      --accent: #0284c7;
+      --accent-soft: #f0f9ff;
+      --border: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.85;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 30px;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.05);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 1.85rem;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    h2 {
+      font-size: 1.22rem;
+      color: var(--primary);
+      margin-top: 28px;
+      margin-bottom: 10px;
+      padding-right: 12px;
+      border-right: 4px solid var(--accent);
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-right: 24px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: var(--accent-soft);
+      border: 1px solid #bae6fd;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .contact-card {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-top: 12px;
+    }
+
+    .contact-card p {
+      margin-bottom: 8px;
+    }
+
+    .contact-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="badge">تطبيق كناش • إدارة حسابات المتاجر والمحلات</span>
+      <h1>سياسة الخصوصية</h1>
+      <p class="subtitle">تطبيق ويب متوافق مع أجهزة أندرويد (إصدار Android 10 وما فوق)</p>
+      <div class="meta">
+        <span><strong>المطور:</strong> وليد طلال (Walid Talal)</span>
+        <span><strong>آخر تحديث:</strong> نوفمبر 2026</span>
+      </div>
+    </header>
+
+    <div class="highlight-box">
+      <strong>ملخص الخصوصية:</strong> تطبيق <strong>كناش</strong> صُمّم ليعمل بخصوصية تامة؛ حيث تُحفظ جميع حساباتك وبيانات متجرك <strong>محلياً على هاتفك فقط</strong>، ولا يتطلب التطبيق إنشاء حساب أو تسجيل دخول، ولا يحتوي على أي إعلانات.
+    </div>
+
+    <h2>1. مقدمة</h2>
+    <p>
+      نحن في تطبيق <strong>كناش لإدارة حسابات المتاجر والمحلات التجارية</strong> نحترم خصوصية المستخدمين ونلتزم بحمايتها بالكامل. توضح هذه الوثيقة كيفية تعامل التطبيق مع البيانات والأذونات على أجهزة أندرويد.
+    </p>
+
+    <h2>2. جمع البيانات وتخزينها</h2>
+    <ul>
+      <li><strong>التخزين المحلي فقط:</strong> جميع البيانات التي تقوم بإدخالها في التطبيق (مثل أسماء العملاء، الأصناف، الفواتير، المبيعات، والديون) يتم حفظها محلياً داخل ذاكرة جهازك فقط، ولا يتم إرسالها أو تخزينها في أي خوادم خارجية تابعة لنا.</li>
+      <li><strong>بدون تسجيل دخول:</strong> يعمل التطبيق مباشرة دون الحاجة إلى إنشاء حساب أو إدخال بريد إلكتروني أو كلمة مرور.</li>
+      <li><strong>عدم جمع بيانات شخصية تلقائياً:</strong> لا نقوم بجمع أو تتبع معلوماتك الشخصية أو موقعك الجغرافي أو سجل نشاطك.</li>
+    </ul>
+
+    <h2>3. النسخ الاحتياطي وتصدير ومشاركة الملفات</h2>
+    <ul>
+      <li>يتيح لك التطبيق إنشاء <strong>نسخة احتياطية</strong> من بياناتك وحفظها محلياً على هاتفك لضمان عدم فقدانها.</li>
+      <li>يتيح لك التطبيق <strong>تصدير التقارير والفواتير والملفات</strong> ومشاركتها عبر التطبيقات الأخرى المثبتة على جهازك (مثل تطبيقات المراسلة أو البريد الإلكتروني).</li>
+      <li>تتم عملية التصدير أو المشاركة <strong>بإرادتك وموافقتك الكاملة فقط</strong> عند الضغط على زر التصدير أو المشاركة، وتكون مسؤولاً عن الجهة التي تختار إرسال الملف إليها.</li>
+    </ul>
+
+    <h2>4. الأذونات (الصلاحيات) المطلوبة</h2>
+    <p>يطلب تطبيق <strong>كناش</strong> الحد الأدنى من الأذونات الضرورية لتشغيل وظائفه فقط:</p>
+    <ul>
+      <li><strong>الكاميرا (Camera):</strong> تُستخدم حصرياً لمسح وقراءة رموز الباركود (Barcode) الخاصة بالمنتجات لتسهيل إضافتها أو البحث عنها في الفواتير. لا يتم التقاط أو حفظ أو إرسال أي صور أو مقاطع فيديو.</li>
+      <li><strong>الوصول إلى الإنترنت (Internet):</strong> يُستخدم لتشغيل واجهة تطبيق الويب وتحميل موارده الأساسية، أو عند اختيارك مشاركة الملفات المُصدّرة عبر الإنترنت.</li>
+      <li><strong>التخزين / الملفات (Storage):</strong> يُستخدم لحفظ واستعادة ملفات النسخ الاحتياطي وتصدير التقارير على جهازك.</li>
+    </ul>
+
+    <h2>5. الإعلانات ومشاركة البيانات مع أطراف ثالثة</h2>
+    <ul>
+      <li><strong>خالي تماماً من الإعلانات:</strong> لا يحتوي التطبيق على أي شبكات إعلانية أو إعلانات مزعجة.</li>
+      <li><strong>عدم مشاركة البيانات:</strong> لا نبيع أو نؤجر أو نشارك أي بيانات مع أي جهات أو أطراف ثالثة، إلا في الحالة التي تقوم فيها أنت شخصياً بتصدير ملف ومشاركته بموافقتك.</li>
+    </ul>
+
+    <h2>6. أمن البيانات ومسؤولية المستخدم</h2>
+    <p>
+      نظراً لأن جميع بياناتك مخزّنة محلياً على هاتفك، فإن حماية جهازك بكلمة مرور أو بصمة والاحتفاظ بنسخ احتياطية دورية في مكان آمن يضمن بقاء بياناتك محمية من الفقدان أو الوصول غير المصرح به.
+    </p>
+
+    <h2>7. التعديلات على سياسة الخصوصية</h2>
+    <p>
+      قد نقوم بتحديث سياسة الخصوصية هذه مستقبلاً لتواكب أي ميزات جديدة في التطبيق أو متطلبات متاجر التطبيقات. سيتم نشر أي تحديث على هذه الصفحة مع تعديل تاريخ "آخر تحديث".
+    </p>
+
+    <h2>8. التواصل والدعم الفني</h2>
+    <p>
+      في حال وجود أي استفسار أو طلب دعم فني بخصوص تطبيق <strong>كناش</strong> أو سياسة الخصوصية، يسعدنا تواصلك معنا عبر:
+    </p>
+    <div class="contact-card">
+      <p><strong>المطور:</strong> وليد طلال (Walid Talal)</p>
+      <p><strong>البريد الإلكتروني:</strong> <a href="mailto:al.3raqi.89@gmail.com">al.3raqi.89@gmail.com</a></p>
+      <p><strong>واتساب (WhatsApp):</strong> <a href="https://wa.me/218935751481" target="_blank" rel="noopener" dir="ltr">+218 93-5751481</a></p>
+    </div>
+
+    <footer>
+      © 2026 تطبيق كناش — جميع الحقوق محفوظة للمطور وليد طلال (Walid Talal).
+    </footer>
+  </main>
+</body>
+</html>
